@@ -9,7 +9,6 @@ services:
     environment:
       MYSQL_DATABASE: user
       MYSQL_ROOT_PASSWORD: 123456
-      MYSQL_ALLOW_EMPTY_PASSWORD:
     networks:
       - petclinic_network
 
