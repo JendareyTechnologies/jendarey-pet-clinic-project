@@ -15,11 +15,11 @@ services:
       - petclinic_network
 
   petclinic:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: jendaredocker/jendarey-petclinic:v1
+    container_name: jendarey-petclinic
+    restart: always
     ports:
-      - "8080:8080"
+      - "15000:8080"
     depends_on:
       - petdb
     environment:
@@ -28,7 +28,6 @@ services:
       MYSQL_USER: root
       MYSQL_PORT: 3306
       MYSQL_PASSWORD: pet
-
     networks:
       - petclinic_network
 
