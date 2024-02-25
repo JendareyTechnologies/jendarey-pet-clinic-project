@@ -52,9 +52,9 @@ git clone https://github.com/JendareyTechnologies/jendarey-pet-clinic.git
 
 # navigate to the project directory:
 
-```bash
-cd jendarey-pet-clinic
-```bash
+
+# cd jendarey-pet-clinic
+
 
 
 # Install dependencies (if any) and set up the development environment.
