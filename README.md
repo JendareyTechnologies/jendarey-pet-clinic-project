@@ -43,24 +43,18 @@ Recommend reaching out to the regular veterinarian first.
 
 - To run the website locally or contribute to the code, follow these steps:
 
-
 # Clone the repository to your local machine:
 
-```bash
+---bash
 git clone https://github.com/JendareyTechnologies/jendarey-pet-clinic.git
-```bash
-
+```
 # navigate to the project directory:
 
-
 # cd jendarey-pet-clinic
-
-
 
 # Install dependencies (if any) and set up the development environment.
 
 Open the project in your preferred code editor and start making changes or running the website locally.
-
 
 # Contributing
 
