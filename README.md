@@ -45,9 +45,8 @@ Recommend reaching out to the regular veterinarian first.
 
 # Clone the repository to your local machine:
 
----bash
 git clone https://github.com/JendareyTechnologies/jendarey-pet-clinic.git
-```
+
 # navigate to the project directory:
 
 # cd jendarey-pet-clinic
