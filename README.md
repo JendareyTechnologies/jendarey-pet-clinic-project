@@ -2,7 +2,9 @@
 # Jendarey Pet Clinic - Website
 Welcome to the Jendarey Pet Clinic GitHub repository! This repository contains the source code for the Jendarey Pet Clinic website, designed to offer a variety of services to pet owners. You can find the live website at https://www.jendareypetclinic.com.
 
-# Features
+Features
+
+
 
 ```bash
 1. Care Advices
