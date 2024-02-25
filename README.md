@@ -5,10 +5,8 @@ Welcome to the Jendarey Pet Clinic GitHub repository! This repository contains t
 
 # Care Advices
 
-```bash
 - Create a safe and comfortable environment for your pet.
 - Remove hazards and provide appropriate toys and enrichment activities.
-```bash
 
 # Customer Supports
 
