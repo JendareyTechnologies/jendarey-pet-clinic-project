@@ -1,6 +1,10 @@
 # Use AdoptOpenJDK 17 as the base image
 FROM  openjdk:17-jdk
 
+# Set metadata for the image
+LABEL author="Akin"
+LABEL project="jendarey-petclinic"
+
 # Set the working directory inside the container
 WORKDIR /app
 
