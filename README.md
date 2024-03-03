@@ -45,11 +45,11 @@ Recommend reaching out to the regular veterinarian first.
 
 # Clone the repository to your local machine:
 
-git clone https://github.com/JendareyTechnologies/jendarey-pet-clinic.git
+git clone https://github.com/JendareyTechnologies/jendarey-pet-clinic-project.git
 
 # navigate to the project directory:
 
-# cd jendarey-pet-clinic
+# cd jendarey-pet-clinic-project
 
 # Install dependencies (if any) and set up the development environment.
 
