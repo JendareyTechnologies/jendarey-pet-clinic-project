@@ -11,6 +11,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
+import java.util.UUID;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import lombok.AllArgsConstructor;
@@ -30,6 +31,8 @@ public class PetService {
     private final Path root = Paths.get("./uploads");
 
     public void savePet(MultipartFile file, Pet pet) throws IOException {
+
+        String uuid = String.valueOf(UUID.randomUUID());
 
         if (!file.isEmpty()) {
             pet.setImageName(file.getOriginalFilename());
