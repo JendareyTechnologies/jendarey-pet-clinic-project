@@ -20,6 +20,6 @@ CMD ["java", "-jar", "pet-clinic.war"]
 
 
 
-# docker build . -t jendaredocker/jendarey-petclinic:v1
+# docker build -t jendaredocker/jendarey-petclinic:v1 .
 # docker-compose up
 # docker run -d -p 14000:8080 --name=petclinic jendaredocker/jendarey-petclinic:v1
