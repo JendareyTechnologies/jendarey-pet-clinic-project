@@ -7,10 +7,12 @@ services:
     platform: linux/amd64
     restart: always
     ports:
-      - 3306:3306
+      - "3306:3306"
     environment:
-      MYSQL_PASSWORD: pet
       MYSQL_ROOT_PASSWORD: pet
+      MYSQL_DATABASE: pet
+      MYSQL_USER: root
+      MYSQL_PASSWORD: pet
     networks:
       - petclinic_network
 
@@ -23,7 +25,7 @@ services:
     depends_on:
       - petdb
     environment:
-      MYSQL_HOST:  pet_db
+      MYSQL_HOST: pet_db
       MYSQL_DB_NAME: pet
       MYSQL_USER: root
       MYSQL_PORT: 3306
@@ -36,11 +38,14 @@ services:
     platform: linux/amd64
     restart: always
     ports:
-      - 18080:8080
+      - "18080:8080"
+    networks:
+      - petclinic_network
 
 networks:
   petclinic_network:
     driver: bridge
+
 
 
 
