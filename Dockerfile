@@ -19,8 +19,9 @@ CMD ["java", "-jar", "pet-clinic.war"]
 
 
 
-
+# mvn clean package
 # docker build -t jendaredocker/jendarey-petclinic:v1 .
 # docker-compose up -d
-# docker run -d -p 14000:8080 --name=petclinic jendaredocker/jendarey-petclinic:v1
 # docker-compose up down
+
+# docker run -d -p 14000:8080 --name=petclinic jendaredocker/jendarey-petclinic:v1
