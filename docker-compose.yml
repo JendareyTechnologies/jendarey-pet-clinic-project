@@ -9,10 +9,8 @@ services:
     ports:
       - "3306:3306"
     environment:
-      MYSQL_ROOT_PASSWORD: pet
-      MYSQL_DATABASE: pet
-      MYSQL_USER: root
       MYSQL_PASSWORD: pet
+      MYSQL_ROOT_PASSWORD: pet
     networks:
       - petclinic_network
 
@@ -25,7 +23,7 @@ services:
     depends_on:
       - petdb
     environment:
-      MYSQL_HOST: pet_db
+      MYSQL_HOST: petdb
       MYSQL_DB_NAME: pet
       MYSQL_USER: root
       MYSQL_PORT: 3306
@@ -45,6 +43,7 @@ services:
 networks:
   petclinic_network:
     driver: bridge
+
 
 
 
