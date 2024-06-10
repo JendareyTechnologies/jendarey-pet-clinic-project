@@ -24,4 +24,10 @@ CMD ["java", "-jar", "pet-clinic.war"]
 # docker compose up -d
 # docker compose up down
 
+# Uninstall Docker Engine
+# sudo apt-get purge docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-ce-rootless-extras -y
+# sudo rm -rf /var/lib/docker
+# sudo rm -rf /var/lib/containerd
+
+
 # docker run -d -p 14000:8080 --name=petclinic jendaredocker/jendarey-petclinic:v1
