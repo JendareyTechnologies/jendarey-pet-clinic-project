@@ -5,7 +5,7 @@ sudo apt update
 sudo hostnamectl set-hostname jendarey-docker-engine
 
 # Install Dependencies (only if not already installed)
-sudo apt install -y git curl maven tree openjdk-17-jdk
+sudo apt install -y git curl maven tree
 
 # Set up Docker's apt repository.
 # Add Docker's official GPG key:
