@@ -22,7 +22,7 @@ CMD ["java", "-jar", "pet-clinic.war"]
 # mvn clean package
 # docker build -t jendaredocker/jendarey-petclinic:v1 .
 # docker compose up -d
-# docker compose up down
+# docker compose down
 
 # Uninstall Docker Engine
 # sudo apt-get purge docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-ce-rootless-extras -y
